@@ -45,4 +45,4 @@ jobs:
          docker tag netflix_frontend:latest ${{ secrets.AWS_ACCOUNT_ID}}.dkr.ecr.eu-north-1.amazonaws.com/netflix_frontend:${GITHUB_RUN_NUMBER}
          docker push ${{ secrets.AWS_ACCOUNT_ID}}.dkr.ecr.eu-north-1.amazonaws.com/netflix_frontend:${GITHUB_RUN_NUMBER}
        # docker tag netflix_frontend:latest 348230509416.dkr.ecr.us-east-2.amazonaws.com/netflix_frontend:${GITHUB_RUN_NUMBER}
-       #  docker push 348230509416.dkr.ecr.us-east-2.amazonaws.com/netflix_frontend:${GITHUB_RUN_NUMBER}
+    
